@@ -13,7 +13,7 @@ const FAQ = () => {
     return <Box m="20px">
         <Header title="FAQ" subtitle="Frequently Asked Questions" />
 
-        <Accordion>
+        <Accordion defaultExpanded>
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography color={colors.greenAccent[500]} variant="h5">
                     How to use blockchain?
@@ -31,7 +31,7 @@ const FAQ = () => {
             </AccordionDetails>
         </Accordion>
 
-        <Accordion>
+        <Accordion defaultExpanded>
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography color={colors.greenAccent[500]} variant="h5">
                     What is the ICO ?
@@ -49,7 +49,7 @@ const FAQ = () => {
             </AccordionDetails>
         </Accordion>
 
-        <Accordion>
+        <Accordion defaultExpanded>
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography color={colors.greenAccent[500]} variant="h5">
                     What is Metamask ?
@@ -67,7 +67,7 @@ const FAQ = () => {
             </AccordionDetails>
         </Accordion>
 
-        <Accordion>
+        <Accordion defaultExpanded>
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography color={colors.greenAccent[500]} variant="h5">
                     Can I buy tokens with fiat money ?
@@ -85,7 +85,7 @@ const FAQ = () => {
             </AccordionDetails>
         </Accordion>
 
-        <Accordion>
+        <Accordion defaultExpanded>
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography color={colors.greenAccent[500]} variant="h5">
                     How to use Bitcoin ATM ?
@@ -103,7 +103,7 @@ const FAQ = () => {
             </AccordionDetails>
         </Accordion>
 
-        <Accordion>
+        <Accordion defaultExpanded>
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography color={colors.greenAccent[500]} variant="h5">
                     Who regulates Crypto law ?
